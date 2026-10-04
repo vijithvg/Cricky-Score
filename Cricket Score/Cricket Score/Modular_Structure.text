@@ -1,0 +1,63 @@
+CricketScorer/                       // MAIN APP TARGET
+├── App/
+├── Domain/
+├── Data/
+└── Presentation/
+
+*********************************
+
+CricketScorer/
+├── App/
+│   ├── CricketScorerApp.swift       // App entry point and WindowGroup
+│   └── DIContainer.swift            // Centralized dependency injection
+├── Domain/                          // PURE SWIFT: No UI or Database frameworks
+│   ├── Entities/
+│   │   ├── Delivery.swift           // The struct you just added
+│   │   └── WicketEvent.swift        // Enum and definitions
+│   ├── Interfaces/
+│   │   └── MatchRepository.swift    // Data access protocols
+│   └── UseCases/
+│       └── RecordDeliveryUseCase.swift // Business logic for scoring events
+├── Data/                            // IMPORTS: SwiftData
+│   ├── Models/
+│   │   └── DeliverySD.swift         // @Model classes for local database
+│   ├── Repositories/
+│   │   └── LocalMatchRepository.swift // Conforms to MatchRepository
+│   └── Mappers/
+│       └── DeliveryMapper.swift     // Maps DeliverySD <-> Delivery
+├── Presentation/                    // IMPORTS: SwiftUI
+│   ├── Scoring/
+│   │   ├── ScoringView.swift        // Live match interface
+│   │   └── ScoringViewModel.swift   // State management and use case execution
+│   └── MatchList/
+│       ├── MatchListView.swift      // History of past matches
+│       └── MatchListViewModel.swift
+└── Core/
+    └── Utilities/                   // Shared extensions, formatters, and constants
+
+
+
+*******************************
+
+
+CricketScorerTests/                  // UNIT TESTING TARGET
+├── Mocks/                           // Shared test doubles
+│   ├── MockMatchRepository.swift
+│   └── MockModelContext.swift
+├── DomainTests/                     // Tests pure business logic
+│   ├── Entities/
+│   │   └── DeliveryTests.swift
+│   └── UseCases/
+│       └── RecordDeliveryUseCaseTests.swift
+├── PresentationTests/               // Tests UI state & logic
+│   └── Scoring/
+│       └── ScoringViewModelTests.swift
+└── DataTests/                       // Tests database & network boundaries
+    ├── Mappers/
+    │   └── DeliveryMapperTests.swift
+    └── Repositories/
+        └── LocalMatchRepositoryTests.swift // Uses in-memory SwiftData context
+
+CricketScorerUITests/                // UI TESTING TARGET (Optional)
+└── UserJourneys/
+    └── MatchScoringJourneyTests.swift
