@@ -6,8 +6,7 @@ Cricket scoring App
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)](https://www.apple.com/ios)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A clear, one-sentence description of what your mobile app does and the specific problem it solves for the user.
-
+With this application, we can score during live matches .
 ## 📸 Screenshots
 
 | Home Screen |
