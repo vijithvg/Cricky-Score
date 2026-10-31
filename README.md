@@ -10,9 +10,9 @@ A clear, one-sentence description of what your mobile app does and the specific 
 
 ## 📸 Screenshots
 
-| Home Screen | Feature Screen | Settings |
-|:---:|:---:|:---:|
-|<img width="220" height="440" alt="scoring_1" src="https://github.com/user-attachments/assets/8b362dd5-aa7b-4d60-8306-717ffdb70f0f" />||<img width="220" height="440" alt="scoring_1" src="https://github.com/user-attachments/assets/8b362dd5-aa7b-4d60-8306-717ffdb70f0f" />||<img width="220" height="440" alt="scoring_1" src="https://github.com/user-attachments/assets/8b362dd5-aa7b-4d60-8306-717ffdb70f0f" />|
+| Home Screen |
+|:---:|
+|<img width="220" height="440" alt="scoring_1" src="https://github.com/user-attachments/assets/8b362dd5-aa7b-4d60-8306-717ffdb70f0f" />|
 
 ## ✨ Features
 
