@@ -12,7 +12,7 @@ A clear, one-sentence description of what your mobile app does and the specific 
 
 | Home Screen | Feature Screen | Settings |
 |:---:|:---:|:---:|
-| <img src="docs/home_screen.png" width="220"/> | <img src="docs/feature_screen.png" width="220"/> | <img src="docs/settings_screen.png" width="220"/> |
+|<img width="220" height="440" alt="scoring_1" src="https://github.com/user-attachments/assets/8b362dd5-aa7b-4d60-8306-717ffdb70f0f" />||<img width="220" height="440" alt="scoring_1" src="https://github.com/user-attachments/assets/8b362dd5-aa7b-4d60-8306-717ffdb70f0f" />||<img width="220" height="440" alt="scoring_1" src="https://github.com/user-attachments/assets/8b362dd5-aa7b-4d60-8306-717ffdb70f0f" />|
 
 ## ✨ Features
 
